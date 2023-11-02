@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rowcard{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 1px red ;
+    border-radius: 50%;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}

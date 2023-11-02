@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh ;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    width: 500px;
+    background-color: rgb(244, 247, 249);
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.btnPrime{
+    padding: 5px 15px;
+    background-color: rgb(209, 228, 237);
+    border: 1px solid rgb(188, 183, 183);
+    border-radius: 20px;
+    font-size: 16px;
+}
+.headTit{
+    margin-top: 15px;
+}
+.btnBlue{
+    padding: 5px 15px;
+    background-color: rgb(88, 159, 221);
+    color: blue;
+    border-radius: 20px;
+}
+.btnWrapper{
+    margin-top: 10px;
+
+}
+
+.text{
+    margin-top: 10px;
+}
