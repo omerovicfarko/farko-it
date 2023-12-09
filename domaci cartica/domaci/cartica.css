@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 100%;
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content:end ;
+    
+}
+
+.text{
+    font-size: 10px;
+}
+.slika{
+    display: flex;
+}

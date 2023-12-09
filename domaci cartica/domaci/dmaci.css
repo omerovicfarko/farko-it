@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(241, 239, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(246, 242, 242);
+    text-align: center;
+    
+    box-sizing: border-box;
+    
+    
+    padding: 20px;
+    
+
+    
+    
+    
+}
+.slika{
+    display: flex;
+    justify-content: end;
+    align-items: end ;
+}
+
+.sredina{
+    display: flex;
+width: 780px;
+height: 205px;
+background-color: rgb(84, 91, 84);
+padding: 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+margin-top: 130px;
+line-height: 0.1;
+
+
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+    
+
+}
+.btnduv{
+    
+    line-height:15px;
+    float: left;
+    text-align: left;
+    
+}
+
+.card1{
+    width: 360px;
+    height: 206px;
+    
+    flex-direction: column;
+    
+
+}
+
+@media only screen and (max-width:1000px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .card {
+        width: 90%;
+        max-height:150px ;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    
+        }
+    }
+    

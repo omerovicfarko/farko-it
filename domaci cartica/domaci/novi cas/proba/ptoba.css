@@ -1,0 +1,57 @@
+body{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    gap: 10px;
+    
+}
+.img{
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card1{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    
+}
+.img2{
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card4{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    
+}
+.img3{
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

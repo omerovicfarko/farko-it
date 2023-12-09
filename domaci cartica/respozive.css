@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card{
+    width: 300px;
+    height: 500px;
+    background-color: aliceblue;
+    
+    
+}
+
+.slika{
+    width:100% ;
+    height: 150px;
+    background-image: url(https://posteraj.rs/cdn/shop/products/ZVBVUK0035-Vuk_i_mesec_400x.jpg?v=1617967161);
+}
+
+.sredina {
+    width: 100%;
+    height: 300px;
+}
+
+@media only screen and (max-width:1000px) {
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card {
+    width: 90%;
+    max-height:150px ;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+}
